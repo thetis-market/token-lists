@@ -1,0 +1,174 @@
+{
+  "name": "Thetis Token List",
+  "timestamp": "2024-08-21T00:00:00.000Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/assets/logo.png",
+  "keywords": ["thetis", "dex", "perp", "dex-aggregator"],
+  "tokens": [
+    {
+      "name": "Aptos Coin",
+      "symbol": "APT",
+      "decimals": 8,
+      "address": "0x1::aptos_coin::AptosCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/APT.png"
+    },
+    {
+      "name": "LayerZero - USD Coin",
+      "symbol": "lzUSDC",
+      "decimals": 6,
+      "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDC",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDC.svg"
+    },
+    {
+      "name": "LayerZero - Tether USD",
+      "symbol": "lzUSDT",
+      "decimals": 6,
+      "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDT.svg"
+    },
+    {
+      "name": "LayerZero - Wrapped BTC",
+      "symbol": "lzBTC",
+      "decimals": 6,
+      "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WBTC",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/WBTC.png"
+    },
+    {
+      "name": "LayerZero - Wrapped Ether",
+      "symbol": "lzWETH",
+      "decimals": 6,
+      "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/WETH.svg"
+    },
+    {
+      "name": "Celer - USD Coin",
+      "symbol": "ceUSDC",
+      "decimals": 6,
+      "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::UsdcCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDC.svg"
+    },
+    {
+      "name": "Celer - Tether USD",
+      "symbol": "ceUSDT",
+      "decimals": 6,
+      "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::UsdtCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDT.svg"
+    },
+    {
+      "name": "Celer - Binance USD",
+      "symbol": "ceBUSD",
+      "decimals": 8,
+      "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::BusdCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/BUSD.png"
+    },
+    {
+      "name": "Celer - Dai Stablecoin",
+      "symbol": "ceDAI",
+      "decimals": 8,
+      "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::DaiCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DAI.svg"
+    },
+    {
+      "name": "Celer - Wrapped BTC",
+      "symbol": "ceWBTC",
+      "decimals": 8,
+      "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::WbtcCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/WBTC.png"
+    },
+    {
+      "name": "Celer - Wrapped Ether",
+      "symbol": "ceWETH",
+      "decimals": 8,
+      "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::WethCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDT.svg"
+    },
+    {
+      "name": "Celer - Binance Coin",
+      "symbol": "ceBNB",
+      "decimals": 8,
+      "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::BnbCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/BNB.svg"
+    },
+    {
+      "name": "Wormhole - USD Coin",
+      "symbol": "whUSDC",
+      "decimals": 6,
+      "address": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDC.svg"
+    },
+    {
+      "name": "Wormhole - Tether USD",
+      "symbol": "whUSDT",
+      "decimals": 6,
+      "address": "0xa2eda21a58856fda86451436513b867c97eecb4ba099da5775520e0f7492e852::coin::T",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDT.svg"
+    },
+    {
+      "name": "Wormhole - Binance USD",
+      "symbol": "whBUSD",
+      "decimals": 8,
+      "address": "0xccc9620d38c4f3991fa68a03ad98ef3735f18d04717cb75d7a1300dd8a7eed75::coin::T",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/BUSD.png"
+    },
+    {
+      "name": "Wormhole - Wrapped BTC",
+      "symbol": "whWBTC",
+      "decimals": 8,
+      "address": "0xae478ff7d83ed072dbc5e264250e67ef58f57c99d89b447efd8a0a2e8b2be76e::coin::T",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/WBTC.png"
+    },
+    {
+      "name": "Wormhole - Wrapped Ether",
+      "symbol": "whWETH",
+      "decimals": 8,
+      "address": "0xcc8a89c8dce9693d354449f1f73e60e14e347417854f029db5bc8e7454008abb::coin::T",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDT.svg"
+    },
+    {
+      "name": "Amnis Finance",
+      "symbol": "amAPT",
+      "decimals": 8,
+      "address": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::amapt_token::AmnisApt",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/AM_APT.png"
+    },
+    {
+      "name": "Amnis Staked Aptos",
+      "symbol": "stAPT",
+      "decimals": 8,
+      "address": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::stapt_token::StakedApt",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/ST_APT.png"
+    },
+    {
+      "name": "Ditto Staked Aptos",
+      "symbol": "stAPT",
+      "decimals": 8,
+      "address": "0xd11107bdf0d6d7040c6c0bfbdecb6545191fdf13e8d8d259952f53e1713f61b5::staked_coin::StakedAptos",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DST_APT.png"
+    },
+    {
+      "name": "Tortuga Staked APT",
+      "symbol": "tAPT",
+      "decimals": 8,
+      "address": "0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/TST_APT.png"
+    },
+    {
+      "name": "Cellana Finance",
+      "symbol": "CELL",
+      "decimals": 8,
+      "address": "0x2ebb2ccac5e027a87fa0e2e5f656a3a4238d6a48d93ec9b610d570fc0aa0df12",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/CELL.png"
+    },
+    {
+      "name": "Thala Token",
+      "symbol": "THL",
+      "decimals": 8,
+      "address": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/THL.png"
+    }
+  ]
+}
