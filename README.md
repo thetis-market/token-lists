@@ -29,8 +29,6 @@ Add the symbol.png file for the token in the logos folder in your forked reposit
 
 Provide the following details:
 
-### `SubmitTokenRequestInfo`
-
 - `name`: The name of the token.
 - `symbol`: The symbol registered by the token minter on-chain
 - `address`: The complete address used to identify the token as per the Aptos core framework
