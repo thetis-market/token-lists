@@ -169,6 +169,54 @@
       "decimals": 8,
       "address": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
       "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/THL.png"
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/CAKE.png"
+    },
+    {
+      "name": "Blocto Token",
+      "symbol": "BLT",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0xfbab9fb68bd2103925317b6a540baa20087b1e7a7a4eb90badee04abb6b5a16f::blt::Blt",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/BLT.png"
+    },
+    {
+      "name": "GUI INU",
+      "symbol": "GUI",
+      "chainId": 1,
+      "decimals": 6,
+      "address": "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/GUI.png"
+    },
+    {
+      "name": "Meeiro",
+      "symbol": "MEE",
+      "chainId": 1,
+      "decimals": 6,
+      "address": "0xe9c192ff55cffab3963c695cff6dbf9dad6aff2bb5ac19a6415cad26a81860d9::mee_coin::MeeCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MEE.svg"
+    },
+    {
+      "name": "Mojito",
+      "symbol": "MOJO",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0x881ac202b1f1e6ad4efcff7a1d0579411533f2502417a19211cfc49751ddb5f4::coin::MOJO",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MOJO.svg"
+    },
+    {
+      "name": "BlueMove",
+      "symbol": "MOVE",
+      "chainId": 1,
+      "decimals": 8,
+      "address": "0x27fafcc4e39daac97556af8a803dbb52bcb03f0821898dc845ac54225b9793eb::move_coin::MoveCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MOVE.svg"
     }
   ]
 }

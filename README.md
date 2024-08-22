@@ -45,7 +45,7 @@ Example:
       "symbol": "APT",
       "decimals": 8,
       "address": "0x1::aptos_coin::AptosCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/thetis-tokenlist/master/logos/APT.png"
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/APT.png"
     }
 ```
 
