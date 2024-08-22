@@ -14,7 +14,7 @@
       "symbol": "APT",
       "decimals": 8,
       "address": "0x1::aptos_coin::AptosCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/APT.png"
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/APT.svg"
     },
     {
       "name": "LayerZero - USD Coin",
@@ -42,7 +42,7 @@
       "symbol": "lzWETH",
       "decimals": 6,
       "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/WETH.svg"
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/WETH.png"
     },
     {
       "name": "Celer - USD Coin",
