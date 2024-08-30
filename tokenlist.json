@@ -4,7 +4,7 @@
   "version": {
     "major": 1,
     "minor": 0,
-    "patch": 1
+    "patch": 2
   },
   "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/assets/logo.png",
   "keywords": ["thetis", "dex", "perp", "dex-aggregator"],
@@ -35,7 +35,7 @@
     },
     {
       "name": "LayerZero - Wrapped BTC",
-      "symbol": "zBTC",
+      "symbol": "zWBTC",
       "decimals": 6,
       "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WBTC",
       "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/WBTC.png",
@@ -754,7 +754,7 @@
       "category": ["Native"]
     },
     {
-      "name": "Tether USD",
+      "name": "Wormhole - Tether USD",
       "symbol": "USDTbs",
       "decimals": 8,
       "address": "0xacd014e8bdf395fa8497b6d585b164547a9d45269377bdf67c96c541b7fec9ed::coin::T",
