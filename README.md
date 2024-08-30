@@ -34,6 +34,7 @@ Provide the following details:
 - `address`: The complete address used to identify the token as per the Aptos core framework
 - `decimals`: The number of decimal places for the token
 - `logoURI`: The URL for the token's logo (the logo should be added to the logos folder in your repository to get the correct link)
+- `categories`: The token's classification (Native, Meme, StableCoin, or Bridged)
 
 Example:
 
@@ -43,7 +44,8 @@ Example:
       "symbol": "APT",
       "decimals": 8,
       "address": "0x1::aptos_coin::AptosCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/APT.png"
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/APT.png",
+      "categories:": ["Native"]
     }
 ```
 
@@ -58,4 +60,4 @@ Navigate to your forked repository, open a pull request, and submit it for revie
 
 
 # Have more questions?
-Come visit us on discord at our partnership channel. Link: https://discord.com/invite/ErPXJyKmXC
+Come visit us on discord at our partnership channel. Link: https://discord.gg/xGEAExZcVv
