@@ -242,7 +242,7 @@
       "categories": ["Native"]
     },
     {
-      "name": "Wrap USDM",
+      "name": "LayerZero • Wrap USDM",
       "symbol": "WUSDM",
       "decimals": 8,
       "address": "0x42d77150661adcc068603bde2453bea1e22fa7ca08878ec88b7e077709c01171::oft::WUSDMOFT",
@@ -578,7 +578,7 @@
       "categories": ["Native"]
     },
     {
-      "name": "Wrapped BNB",
+      "name": "Wormhole • Wrapped BNB",
       "symbol": "WBNB",
       "decimals": 8,
       "address": "0x6312bc0a484bc4e37013befc9949df2d7c8a78e01c6fe14a34018449d136ba86::coin::T",
@@ -586,7 +586,7 @@
       "categories": ["Bridged"]
     },
     {
-      "name": "Solana",
+      "name": "Wormhole • Solana",
       "symbol": "SOL",
       "decimals": 8,
       "address": "0xdd89c0e695df0692205912fb69fc290418bed0dbe6e4573d744a6d5e6bab6c13::coin::T",
@@ -594,7 +594,7 @@
       "categories": ["Bridged"]
     },
     {
-      "name": "Gari",
+      "name": "Wormhole • Gari",
       "symbol": "GARI",
       "decimals": 8,
       "address": "0x4def3d3dee27308886f0a3611dd161ce34f977a9a5de4e80b237225923492a2a::coin::T",
@@ -610,7 +610,7 @@
       "categories": ["Native"]
     },
     {
-      "name": "USD Coin (Wormhole Solana)",
+      "name": "Wormhole • USD Coin (Solana)",
       "symbol": "USDCso",
       "decimals": 6,
       "address": "0xc91d826e29a3183eb3b6f6aa3a722089fdffb8e9642b94c5fcd4c48d035c0080::coin::T",
@@ -746,7 +746,7 @@
       "categories": ["Meme"]
     },
     {
-      "name": "Dai Stablecoin (Wormhole)",
+      "name": "Wormhole • Dai Stablecoin",
       "symbol": "DAI",
       "decimals": 8,
       "address": "0x407a220699982ebb514568d007938d2447d33667e4418372ffec1ddb24491b6c::coin::T",
@@ -762,7 +762,7 @@
       "categories": ["Bridged"]
     },
     {
-      "name": "USD Coin (Wormhole, BSC)",
+      "name": "Wormhole • USD Coin (BSC)",
       "symbol": "USDCbs",
       "decimals": 8,
       "address": "0x79a6ed7a0607fdad2d18d67d1a0e552d4b09ebce5951f1e5c851732c02437595::coin::T",
@@ -770,7 +770,7 @@
       "categories": ["Bridged"]
     },
     {
-      "name": "USD Coin (Wormhole Avalanche)",
+      "name": "Wormhole • USD Coin (Avalanche)",
       "symbol": "USDCav",
       "decimals": 6,
       "address": "0x39d84c2af3b0c9895b45d4da098049e382c451ba63bec0ce0396ff7af4bb5dff::coin::T",
@@ -778,7 +778,7 @@
       "categories": ["Bridged"]
     },
     {
-      "name": "Wrapped AVAX (Wormhole)",
+      "name": "Wormhole • Wrapped AVAX",
       "symbol": "WAVAX",
       "decimals": 8,
       "address": "0x5b1bbc25524d41b17a95dac402cf2f584f56400bf5cc06b53c36b331b1ec6e8f::coin::T",
