@@ -26,12 +26,36 @@
       "categories": ["Bridged", "StableCoin"]
     },
     {
+      "name": "Merkle Trade",
+      "symbol": "MKL",
+      "decimals": 6,
+      "address": "0x5ae6789dd2fec1a9ec9cccfb3acaf12e93d432f0a3a42c92fe1a9d490b7bbc06::mkl_token::MKL",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MKL.png",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Liquidswap",
+      "symbol": "LSD",
+      "decimals": 8,
+      "address": "0x53a30a6e5936c0a4c5140daed34de39d17ca7fcae08f947c02e979cef98a3719::coin::LSD",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/LSD.png",
+      "categories": ["Native"]
+    },
+    {
       "name": "LayerZero • Tether USD",
       "symbol": "zUSDT",
       "decimals": 6,
       "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::USDT",
       "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDT.svg",
       "categories": ["Bridged", "StableCoin"]
+    },
+    {
+      "name": "LayerZero • Wrapped Ether",
+      "symbol": "zWETH",
+      "decimals": 6,
+      "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/WETH.png",
+      "categories": ["Bridged"]
     },
     {
       "name": "LayerZero • Wrapped BTC",
@@ -42,12 +66,196 @@
       "categories": ["Bridged"]
     },
     {
-      "name": "LayerZero • Wrapped Ether",
-      "symbol": "zWETH",
-      "decimals": 6,
-      "address": "0xf22bede237a07e121b56d91a491eb7bcdfd1f5907926a9e58338f964a01b17fa::asset::WETH",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/WETH.png",
+      "name": "LayerZero • Wrap USDM",
+      "symbol": "WUSDM",
+      "decimals": 8,
+      "address": "0x42d77150661adcc068603bde2453bea1e22fa7ca08878ec88b7e077709c01171::oft::WUSDMOFT",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/WUSDM.png",
       "categories": ["Bridged"]
+    },
+    {
+      "name": "Thala Token",
+      "symbol": "THL",
+      "decimals": 8,
+      "address": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/THL.png",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Cellana Finance",
+      "symbol": "CELL",
+      "decimals": 8,
+      "address": "0x2ebb2ccac5e027a87fa0e2e5f656a3a4238d6a48d93ec9b610d570fc0aa0df12",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/CELL.png",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Ondo US Dollar Yield",
+      "symbol": "USDY",
+      "decimals": 6,
+      "address": "0xcfea864b32833f157f042618bd845145256b1bf4c0da34a7013b76e42daa53cc::usdy::USDY",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDY.svg",
+      "categories": ["Native"]
+    },
+    {
+      "name": "The Loonies",
+      "symbol": "LOON",
+      "decimals": 6,
+      "address": "0x268d4a7a2ad93274edf6116f9f20ad8455223a7ab5fc73154f687e7dbc3e3ec6::LOON::LOON",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/LOON.jpg",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Thala APT",
+      "symbol": "thAPT",
+      "decimals": 8,
+      "address": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::ThalaAPT",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/thAPT.png",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Amnis Staked Aptos",
+      "symbol": "stAPT",
+      "decimals": 8,
+      "address": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::stapt_token::StakedApt",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/ST_APT.png",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Staked Thala APT",
+      "symbol": "sthAPT",
+      "decimals": 8,
+      "address": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::StakedThalaAPT",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/sthAPT.png",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Move Dollar",
+      "symbol": "MOD",
+      "decimals": 8,
+      "address": "0x6f986d146e4a90b828d8c12c14b6f4e003fdff11a8eecceceb63744363eaac01::mod_coin::MOD",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MOD.png",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Wormhole • USD Coin",
+      "symbol": "wUSDC",
+      "decimals": 6,
+      "address": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDC.svg",
+      "categories": ["Bridged", "StableCoin"]
+    },
+    {
+      "name": "DooDoo",
+      "symbol": "DooDoo",
+      "decimals": 8,
+      "address": "0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec::coin::DooDoo",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DOODOO.png",
+      "categories": ["Meme"]
+    },
+    {
+      "name": "UPTOS",
+      "symbol": "UPTOS",
+      "decimals": 8,
+      "address": "0x4fbed3f8a3fd8a11081c8b6392152a8b0cb14d70d0414586f0c9b858fcd2d6a7::UPTOS::UPTOS",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/UPTOS.png",
+      "categories": ["Meme"]
+    },
+    {
+      "name": "MOVEGPT",
+      "symbol": "MGPT",
+      "decimals": 8,
+      "address": "0x63be1898a424616367e19bbd881f456a78470e123e2770b5b5dcdceb61279c54::movegpt_token::MovegptCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MGPT.jpg",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Donk",
+      "symbol": "DONK",
+      "decimals": 8,
+      "address": "0xe88ae9670071da40a9a6b1d97aab8f6f1898fdc3b8f1c1038b492dfad738448b::coin::Donk",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DONK.png",
+      "categories": ["Meme"]
+    },
+    {
+      "name": "nRuH BeRs",
+      "symbol": "NRUH",
+      "decimals": 6,
+      "address": "0x967adbf2e05fe665ab86a3bf2c4acfa39fbf62097963474ef70a0786dae8cfa2::NRUH::NRUH",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/NRUH.png",
+      "categories": ["Meme"]
+    },
+    {
+      "name": "sherritos",
+      "symbol": "STOS",
+      "decimals": 6,
+      "address": "0x2dcbc03740a6fa2efee926b9df329184cce357d0573bdab09930f4d48e61a4c8::STOS::STOS",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/STOS.png",
+      "categories": ["Meme"]
+    },
+    {
+      "name": "Zaaptos Coin",
+      "symbol": "ZAAP",
+      "decimals": 8,
+      "address": "0xdcfa079344261bfde45e7f6281df091743b8d3098bf9e26e1c0212fc5b070621::zaaptos_token::ZaaptosCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/ZAAP.png",
+      "categories": ["Meme"]
+    },
+    {
+      "name": "PancakeSwap Token",
+      "symbol": "CAKE",
+      "decimals": 8,
+      "address": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/CAKE.png",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Propbase",
+      "symbol": "PROPS",
+      "decimals": 8,
+      "address": "0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099::propbase_coin::PROPS",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/PROPS.png",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Dumdum",
+      "symbol": "DUMDUM",
+      "decimals": 8,
+      "address": "0xbe3c4b493632b4d776d56e19d91dcfb34f591f759f6b57f8632d455360da503c::dumdum_coin::DumdumCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DUMDUM.png",
+      "categories": ["Meme"]
+    },
+    {
+      "name": "APETOS",
+      "symbol": "APE",
+      "decimals": 8,
+      "address": "0xada35ada7e43e2ee1c39633ffccec38b76ce702b4efc2e60b50f63fbe4f710d8::apetos_token::ApetosCoin",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/APE.png",
+      "categories": ["Meme"]
+    },
+    {
+      "name": "MARBLEX",
+      "symbol": "MBX",
+      "decimals": 8,
+      "address": "0x665d06fcd9c94430099f82973f2a5e5f13142e42fa172e72ce14f51a64bd8ad9::coin_mbx::MBX",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MBX.png",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Pepe",
+      "symbol": "PEPE",
+      "decimals": 6,
+      "address": "0x198e4a77b72cbcac7465e774e99d2ba552053ca57b0759ea3c008433742b4e4f::PEPE::Pepe",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/PEPE.png",
+      "categories": ["Meme"]
+    },
+    {
+      "name": "Apto The Mascot",
+      "symbol": "APTO",
+      "decimals": 8,
+      "address": "0x4c71c33b9ec2f263a7f25779bd9a2531165d4da9a963e042a20f288688094a66::APTO_THE_MASCOT::APTO_THE_MASCOT",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/APTO.png",
+      "categories": ["Meme"]
     },
     {
       "name": "Celer • USD Coin",
@@ -78,7 +286,7 @@
       "symbol": "cDAI",
       "decimals": 8,
       "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::DaiCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DAI.svg",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DAI.png",
       "categories": ["Bridged", "StableCoin"]
     },
     {
@@ -102,16 +310,8 @@
       "symbol": "cBNB",
       "decimals": 8,
       "address": "0x8d87a65ba30e09357fa2edea2c80dbac296e5dec2b18287113500b902942929d::celer_coin_manager::BnbCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/BNB.svg",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/BNB.png",
       "categories": ["Bridged"]
-    },
-    {
-      "name": "Wormhole • USD Coin",
-      "symbol": "wUSDC",
-      "decimals": 6,
-      "address": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDC.svg",
-      "categories": ["Bridged", "StableCoin"]
     },
     {
       "name": "Wormhole • Tether USD",
@@ -146,22 +346,6 @@
       "categories": ["Bridged"]
     },
     {
-      "name": "Amnis Finance",
-      "symbol": "amAPT",
-      "decimals": 8,
-      "address": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::amapt_token::AmnisApt",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/AM_APT.png",
-      "categories": ["Native"]
-    },
-    {
-      "name": "Amnis Staked Aptos",
-      "symbol": "stAPT",
-      "decimals": 8,
-      "address": "0x111ae3e5bc816a5e63c2da97d0aa3886519e0cd5e4b046659fa35796bd11542a::stapt_token::StakedApt",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/ST_APT.png",
-      "categories": ["Native"]
-    },
-    {
       "name": "Ditto Staked Aptos",
       "symbol": "stAPT",
       "decimals": 8,
@@ -175,30 +359,6 @@
       "decimals": 8,
       "address": "0x84d7aeef42d38a5ffc3ccef853e1b82e4958659d16a7de736a29c55fbbeb0114::staked_aptos_coin::StakedAptosCoin",
       "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/TST_APT.png",
-      "categories": ["Native"]
-    },
-    {
-      "name": "Cellana Finance",
-      "symbol": "CELL",
-      "decimals": 8,
-      "address": "0x2ebb2ccac5e027a87fa0e2e5f656a3a4238d6a48d93ec9b610d570fc0aa0df12",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/CELL.png",
-      "categories": ["Native"]
-    },
-    {
-      "name": "Thala Token",
-      "symbol": "THL",
-      "decimals": 8,
-      "address": "0x7fd500c11216f0fe3095d0c4b8aa4d64a4e2e04f83758462f2b127255643615::thl_coin::THL",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/THL.png",
-      "categories": ["Native"]
-    },
-    {
-      "name": "PancakeSwap Token",
-      "symbol": "CAKE",
-      "decimals": 8,
-      "address": "0x159df6b7689437016108a019fd5bef736bac692b6d4a1f10c941f6fbb9a74ca6::oft::CakeOFT",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/CAKE.png",
       "categories": ["Native"]
     },
     {
@@ -222,7 +382,7 @@
       "symbol": "MEE",
       "decimals": 6,
       "address": "0xe9c192ff55cffab3963c695cff6dbf9dad6aff2bb5ac19a6415cad26a81860d9::mee_coin::MeeCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MEE.svg",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MEE.png",
       "categories": ["Native"]
     },
     {
@@ -242,86 +402,6 @@
       "categories": ["Native"]
     },
     {
-      "name": "LayerZero • Wrap USDM",
-      "symbol": "WUSDM",
-      "decimals": 8,
-      "address": "0x42d77150661adcc068603bde2453bea1e22fa7ca08878ec88b7e077709c01171::oft::WUSDMOFT",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/WUSDM.png",
-      "categories": ["Bridged"]
-    },
-    {
-      "name": "Ondo US Dollar Yield",
-      "symbol": "USDY",
-      "decimals": 6,
-      "address": "0xcfea864b32833f157f042618bd845145256b1bf4c0da34a7013b76e42daa53cc::usdy::USDY",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/USDY.svg",
-      "categories": ["Native"]
-    },
-    {
-      "name": "The Loonies",
-      "symbol": "LOON",
-      "decimals": 6,
-      "address": "0x268d4a7a2ad93274edf6116f9f20ad8455223a7ab5fc73154f687e7dbc3e3ec6::LOON::LOON",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/LOON.jpg",
-      "categories": ["Native"]
-    },
-    {
-      "name": "Thala APT",
-      "symbol": "thAPT",
-      "decimals": 8,
-      "address": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::ThalaAPT",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/thAPT.png",
-      "categories": ["Native"]
-    },
-    {
-      "name": "Staked Thala APT",
-      "symbol": "sthAPT",
-      "decimals": 8,
-      "address": "0xfaf4e633ae9eb31366c9ca24214231760926576c7b625313b3688b5e900731f6::staking::StakedThalaAPT",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/sthAPT.png",
-      "categories": ["Native"]
-    },
-    {
-      "name": "Move Dollar",
-      "symbol": "MOD",
-      "decimals": 8,
-      "address": "0x6f986d146e4a90b828d8c12c14b6f4e003fdff11a8eecceceb63744363eaac01::mod_coin::MOD",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MOD.png",
-      "categories": ["Native"]
-    },
-    {
-      "name": "DooDoo",
-      "symbol": "DooDoo",
-      "decimals": 8,
-      "address": "0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec::coin::DooDoo",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DOODOO.png",
-      "categories": ["Meme"]
-    },
-    {
-      "name": "UPTOS",
-      "symbol": "UPTOS",
-      "decimals": 8,
-      "address": "0x4fbed3f8a3fd8a11081c8b6392152a8b0cb14d70d0414586f0c9b858fcd2d6a7::UPTOS::UPTOS",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/UPTOS.svg",
-      "categories": ["Meme"]
-    },
-    {
-      "name": "MOVEGPT",
-      "symbol": "MGPT",
-      "decimals": 8,
-      "address": "0x63be1898a424616367e19bbd881f456a78470e123e2770b5b5dcdceb61279c54::movegpt_token::MovegptCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MGPT.jpg",
-      "categories": ["Native"]
-    },
-    {
-      "name": "Donk",
-      "symbol": "DONK",
-      "decimals": 8,
-      "address": "0xe88ae9670071da40a9a6b1d97aab8f6f1898fdc3b8f1c1038b492dfad738448b::coin::Donk",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DONK.png",
-      "categories": ["Meme"]
-    },
-    {
       "name": "MONKE",
       "symbol": "MONKE",
       "decimals": 6,
@@ -330,83 +410,11 @@
       "categories": ["Meme"]
     },
     {
-      "name": "nRuH BeRs",
-      "symbol": "NRUH",
-      "decimals": 6,
-      "address": "0x967adbf2e05fe665ab86a3bf2c4acfa39fbf62097963474ef70a0786dae8cfa2::NRUH::NRUH",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/NRUH.png",
-      "categories": ["Meme"]
-    },
-    {
-      "name": "sherritos",
-      "symbol": "STOS",
-      "decimals": 6,
-      "address": "0x2dcbc03740a6fa2efee926b9df329184cce357d0573bdab09930f4d48e61a4c8::STOS::STOS",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/STOS.png",
-      "categories": ["Meme"]
-    },
-    {
-      "name": "Zaaptos Coin",
-      "symbol": "ZAAP",
-      "decimals": 8,
-      "address": "0xdcfa079344261bfde45e7f6281df091743b8d3098bf9e26e1c0212fc5b070621::zaaptos_token::ZaaptosCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/ZAAP.png",
-      "categories": ["Meme"]
-    },
-    {
-      "name": "Propbase",
-      "symbol": "PROPS",
-      "decimals": 8,
-      "address": "0xe50684a338db732d8fb8a3ac71c4b8633878bd0193bca5de2ebc852a83b35099::propbase_coin::PROPS",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/PROPS.png",
-      "categories": ["Native"]
-    },
-    {
-      "name": "Dumdum",
-      "symbol": "DUMDUM",
-      "decimals": 8,
-      "address": "0xbe3c4b493632b4d776d56e19d91dcfb34f591f759f6b57f8632d455360da503c::dumdum_coin::DumdumCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DUMDUM.png",
-      "categories": ["Meme"]
-    },
-    {
-      "name": "APETOS",
-      "symbol": "APE",
-      "decimals": 8,
-      "address": "0xada35ada7e43e2ee1c39633ffccec38b76ce702b4efc2e60b50f63fbe4f710d8::apetos_token::ApetosCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/APE.png",
-      "categories": ["Meme"]
-    },
-    {
       "name": "BUBBLES",
       "symbol": "BUBBLES",
       "decimals": 8,
       "address": "0xd6a49762f6e4f7401ee79be6f5d4111e70db1408966ba1aa204e6e10c9d437ca::bubbles::BubblesCoin",
       "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/BUBBLES.jpg",
-      "categories": ["Meme"]
-    },
-    {
-      "name": "MARBLEX",
-      "symbol": "MBX",
-      "decimals": 8,
-      "address": "0x665d06fcd9c94430099f82973f2a5e5f13142e42fa172e72ce14f51a64bd8ad9::coin_mbx::MBX",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MBX.png",
-      "categories": ["Native"]
-    },
-    {
-      "name": "Pepe",
-      "symbol": "PEPE",
-      "decimals": 6,
-      "address": "0x198e4a77b72cbcac7465e774e99d2ba552053ca57b0759ea3c008433742b4e4f::PEPE::Pepe",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/PEPE.png",
-      "categories": ["Meme"]
-    },
-    {
-      "name": "Apto The Mascot",
-      "symbol": "APTO",
-      "decimals": 8,
-      "address": "0x4c71c33b9ec2f263a7f25779bd9a2531165d4da9a963e042a20f288688094a66::APTO_THE_MASCOT::APTO_THE_MASCOT",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/APTO.png",
       "categories": ["Meme"]
     },
     {
@@ -598,7 +606,7 @@
       "symbol": "GARI",
       "decimals": 8,
       "address": "0x4def3d3dee27308886f0a3611dd161ce34f977a9a5de4e80b237225923492a2a::coin::T",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/GARI.svg",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/GARI.png",
       "categories": ["Bridged"]
     },
     {
@@ -678,7 +686,7 @@
       "symbol": "UPT",
       "decimals": 8,
       "address": "0xe1d39a72bd69bc2ebfe008bb925badb23a32883b077218b9e167f74cf703db1a::uptos::UptosCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/UPT.svg",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/UPT.png",
       "categories": ["Native"]
     },
     {
@@ -686,7 +694,7 @@
       "symbol": "NBUL",
       "decimals": 8,
       "address": "0x33afc05395020c12a31ada7d7d833f31ae1dd892124edec50297c7d608a6e7bd::NEBULA::NEBULA",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/NBUL.svg",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/NBUL.png",
       "categories": ["Native"]
     },
     {
@@ -694,7 +702,7 @@
       "symbol": "DOOT",
       "decimals": 8,
       "address": "0x9906c12b3b7a12721b9dddf23e6dd5ff5dfc93c5241dada855780758b01fedd3::DOOT_SKELETON::DOOT_SKELETON",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DOOT.svg",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DOOT.png",
       "categories": ["Native"]
     },
     {
@@ -742,7 +750,7 @@
       "symbol": "DDOS",
       "decimals": 8,
       "address": "0x66398cf97d29fd3825f65b37cb2773268e5438d37e20777e6a98261da0cf1f1e::ddos_coin::DDOS_COIN",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DDOS.svg",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/DDOS.png",
       "categories": ["Meme"]
     },
     {
@@ -794,19 +802,11 @@
       "categories": ["Native"]
     },
     {
-      "name": "Liquidswap",
-      "symbol": "LSD",
-      "decimals": 8,
-      "address": "0x53a30a6e5936c0a4c5140daed34de39d17ca7fcae08f947c02e979cef98a3719::coin::LSD",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/LSD.png",
-      "categories": ["Native"]
-    },
-    {
       "name": "Crab Coin",
       "symbol": "CRAB",
       "decimals": 8,
       "address": "0x4d981c48d254c4cea6110090ad1c2890d5ea35d49cbed28e76c0d3bb90ddf873::crab_coin::CrabCoin",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/CRAB.svg",
+      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/CRAB.png",
       "categories": ["Native"]
     },
     {
@@ -816,14 +816,6 @@
       "address": "0x65957cb717d1ec5e13c003cbad0d20d8f7f95236ea0f8bb8c419e533eda73890::TOAST::TOAST",
       "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/TOAST.jpg",
       "categories": ["Meme"]
-    },
-    {
-      "name": "Merkle Trade",
-      "symbol": "MKL",
-      "decimals": 6,
-      "address": "0x5ae6789dd2fec1a9ec9cccfb3acaf12e93d432f0a3a42c92fe1a9d490b7bbc06::mkl_token::MKL",
-      "logoURI": "https://raw.githubusercontent.com/thetis-market/token-lists/main/logos/MKL.png",
-      "categories": ["Native"]
     }
   ]
 }
