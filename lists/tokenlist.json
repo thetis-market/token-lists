@@ -106,6 +106,14 @@
       "categories": ["Native"]
     },
     {
+      "name": "VibrantX token",
+      "symbol": "VIBE",
+      "decimals": 8,
+      "address": "0xeedba439a4ab8987a995cf5cfefebd713000b3365718a29dfbc36bc214445fb8",
+      "logoURI": "https://tokenlist.thetis.market/logos/VIBE.png",
+      "categories": ["Meme"]
+    },
+    {
       "name": "Ondo US Dollar Yield",
       "symbol": "USDY",
       "decimals": 6,
@@ -160,6 +168,14 @@
       "address": "0x5e156f1207d0ebfa19a9eeff00d62a282278fb8719f4fab3a586a0a2c0fffbea::coin::T",
       "logoURI": "https://tokenlist.thetis.market/logos/USDC.svg",
       "categories": ["Bridged", "StableCoin"]
+    },
+    {
+      "name": "aBTC",
+      "symbol": "aBTC",
+      "decimals": 10,
+      "address": "0x4e1854f6d332c9525e258fb6e66f84b6af8aba687bbcb832a24768c4e175feec::abtc::ABTC",
+      "logoURI": "https://tokenlist.thetis.market/logos/aBTC.svg",
+      "categories": ["Bridged"]
     },
     {
       "name": "DooDoo",
@@ -359,6 +375,30 @@
       "decimals": 8,
       "address": "0xcc8a89c8dce9693d354449f1f73e60e14e347417854f029db5bc8e7454008abb::coin::T",
       "logoURI": "https://tokenlist.thetis.market/logos/USDT.svg",
+      "categories": ["Bridged"]
+    },
+    {
+      "name": "USDe",
+      "symbol": "USDe",
+      "decimals": 6,
+      "address": "0xf37a8864fe737eb8ec2c2931047047cbaed1beed3fb0e5b7c5526dafd3b9c2e9",
+      "logoURI": "https://tokenlist.thetis.market/logos/USDe.png",
+      "categories": ["Bridged"]
+    },
+    {
+      "name": "Staked USDe",
+      "symbol": "sUSDe",
+      "decimals": 6,
+      "address": "0xb30a694a344edee467d9f82330bbe7c3b89f440a1ecd2da1f3bca266560fce69",
+      "logoURI": "https://tokenlist.thetis.market/logos/sUSDe.png",
+      "categories": ["Bridged"]
+    },
+    {
+      "name": "StakeStone Bitcoin",
+      "symbol": "lzSBTC",
+      "decimals": 8,
+      "address": "0x5dee1d4b13fae338a1e1780f9ad2709a010e824388efd169171a26e3ea9029bb::stakestone_bitcoin::StakeStoneBitcoin",
+      "logoURI": "https://tokenlist.thetis.market/logos/lzSBTC.png",
       "categories": ["Bridged"]
     },
     {
@@ -831,6 +871,14 @@
       "decimals": 8,
       "address": "0x65957cb717d1ec5e13c003cbad0d20d8f7f95236ea0f8bb8c419e533eda73890::TOAST::TOAST",
       "logoURI": "https://tokenlist.thetis.market/logos/TOAST.jpg",
+      "categories": ["Meme"]
+    },
+    {
+      "name": "Hair",
+      "symbol": "HAIR",
+      "decimals": 8,
+      "address": "0x96baeee6d7a4a8cd712144d1225cfcb6c26d0c6fefd463bd77a878e4526c7411::hair_coin::HairCoin",
+      "logoURI": "https://tokenlist.thetis.market/logos/HAIR.png",
       "categories": ["Meme"]
     }
   ]
