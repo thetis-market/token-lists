@@ -162,6 +162,22 @@
       "categories": ["Native"]
     },
     {
+      "name": "Kofi APT",
+      "symbol": "kAPT",
+      "decimals": 8,
+      "address": "0x821c94e69bc7ca058c913b7b5e6b0a5c9fd1523d58723a966fb8c1f5ea888105",
+      "logoURI": "https://tokenlist.thetis.market/logos/kAPT.png",
+      "categories": ["Native"]
+    },
+    {
+      "name": "Staked Kofi APT",
+      "symbol": "stkAPT",
+      "decimals": 8,
+      "address": "0x42556039b88593e768c97ab1a3ab0c6a17230825769304482dff8fdebe4c002b",
+      "logoURI": "https://tokenlist.thetis.market/logos/stkAPT.png",
+      "categories": ["Native"]
+    },
+    {
       "name": "Move Dollar",
       "symbol": "MOD",
       "decimals": 8,
@@ -440,6 +456,14 @@
       "address": "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
       "logoURI": "https://tokenlist.thetis.market/logos/GUI.png",
       "categories": ["Native", "Meme"]
+    },
+    {
+      "name": "MESO",
+      "symbol": "MESO",
+      "decimals": 8,
+      "address": "0x378d5ba871c3d1bdf477a617f997f23d9e0702de97a02f42925b44fa3abc9866",
+      "logoURI": "https://tokenlist.thetis.market/logos/MESO.png",
+      "categories": ["Native"]
     },
     {
       "name": "Meeiro",
