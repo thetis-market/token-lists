@@ -58,6 +58,14 @@
       "categories": ["Native"]
     },
     {
+      "name": "MESO",
+      "symbol": "MESO",
+      "decimals": 8,
+      "address": "0x378d5ba871c3d1bdf477a617f997f23d9e0702de97a02f42925b44fa3abc9866",
+      "logoURI": "https://tokenlist.thetis.market/logos/MESO.png",
+      "categories": ["Native"]
+    },
+    {
       "name": "Liquidswap",
       "symbol": "LSD",
       "decimals": 8,
@@ -456,14 +464,6 @@
       "address": "0xe4ccb6d39136469f376242c31b34d10515c8eaaa38092f804db8e08a8f53c5b2::assets_v1::EchoCoin002",
       "logoURI": "https://tokenlist.thetis.market/logos/GUI.png",
       "categories": ["Native", "Meme"]
-    },
-    {
-      "name": "MESO",
-      "symbol": "MESO",
-      "decimals": 8,
-      "address": "0x378d5ba871c3d1bdf477a617f997f23d9e0702de97a02f42925b44fa3abc9866",
-      "logoURI": "https://tokenlist.thetis.market/logos/MESO.png",
-      "categories": ["Native"]
     },
     {
       "name": "Meeiro",
